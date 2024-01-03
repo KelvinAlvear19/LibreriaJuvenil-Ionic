@@ -1,0 +1,50 @@
+<ion-content>
+
+  <div class="header">
+  
+      <div class="row1">
+        </div>
+  
+  
+      </div>
+  
+  <ion-slide>
+      <div class="contaier-login">
+          <ion-grid>
+              <ion-row>
+                  <ion-col>
+                    
+                      <h1 class="titulo2">Biblioteca Virtual</h1>
+                      <h4 class="titulo1">Iniciar Sesion</h4>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+                      <ion-list>
+  
+                          <ion-item>
+                              <ion-icon class="titulo1" name="person" class="icon-login"></ion-icon>
+                              <ion-input class="titulo1" #email type="text" required placeholder="Email"></ion-input>
+                          </ion-item>
+                          <br />
+                          <ion-item>
+                              <ion-icon class="titulo1" name="key" class="icon-login"></ion-icon>
+                              <ion-input class="titulo1" #password name="password" type="password" required placeholder="Contraseña"></ion-input>
+                          </ion-item>
+  
+                      </ion-list>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+       
+                        <ion-button class="titulo1" color="secondary" expand="block" (click)="login(email.value, password.value)">Iniciar Sesion</ion-button>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+      </div>
+  </ion-slide>

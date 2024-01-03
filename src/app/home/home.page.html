@@ -1,0 +1,39 @@
+
+  <ion-header class="headercolor">
+    <ion-toolbar class="header" >
+      <ion-title class="titulo">Listado de Libros      <ion-icon name="book"></ion-icon></ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-col>
+      <ion-card *ngFor="let libro of libros">
+        <ion-card-header>
+          <ion-card-title class="titulo1">
+            {{libro.titulo}}
+          </ion-card-title>
+          <ion-card-subtitle class="titulo1">
+            {{libro.genero}}
+          </ion-card-subtitle>
+    
+        </ion-card-header>
+        <ion-card-content>
+          <img [src]=libro.urlI>
+          <div class="titulo1">{{libro.descripcion}}</div>
+          <div class="titulo1">{{libro.autor}}</div>
+          <ion-button color="secondary" [routerLink]="'/home/' + libro.id">Editar</ion-button>
+          <ion-button color="danger" (click)="eliminarLibro(libro.id)">Eliminar</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-grid>
+  <ion-fab class="btnadd" vertical="bottom" horizontal="end" slot="fixed">
+     <ion-fab-button routerLink="libro-form" class="btnadd">
+      <ion-icon name ="add"></ion-icon>
+     </ion-fab-button>
+  </ion-fab>
+  
+</ion-content>

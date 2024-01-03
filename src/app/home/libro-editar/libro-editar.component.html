@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <ion-buttons slot="start">
+      <ion-back-button class="flecha" (click)="this.router.navigate(['home'])"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="titulo">Registro de Libro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="titulo1"> Registar un Libro </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label class="titulo1" position="floating">Id</ion-label>
+        <ion-input class="titulo1" #id [value]="libro.id" disabled></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="titulo1" position="floating">Titulo</ion-label>
+        <ion-input class="titulo1" #titulo [value]="libro.titulo"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="titulo1" position=floating>Genero</ion-label>
+        <ion-input  class="titulo1" #genero [value]="libro.genero"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="titulo1" position=floating>Descripcion</ion-label>
+        <ion-input class="titulo1" #descripcion [value]="libro.descripcion"></ion-input>
+      </ion-item>
+      <ion-item> 
+        <ion-label class="titulo1" position=floating>Autor</ion-label>
+        <ion-input class="titulo1" #autor [value]="libro.autor"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="titulo1" position=floating>urlI</ion-label>
+        <ion-input class="titulo1" #urlI [value]="libro.urlI"></ion-input>
+      </ion-item>
+      <ion-button class="titulo1 " color="secondary" expand="full" (click)="editarLibro(id, titulo, genero,descripcion,autor,urlI)"> Actualizar </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

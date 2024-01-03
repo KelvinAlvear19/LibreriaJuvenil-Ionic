@@ -1,0 +1,47 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jjj{
+  --background-color: #D9663D !important;
+}
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+.header{
+  --background: #D9663D !important;
+}
+.titulo{
+  --color: aliceblue !important;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+.titulo1{
+  --color: #000000 !important;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+.btnadd{
+  --background: #D9663D !important;
+}
+.editbtn{
+  --background: #6BB7BF !important;
+}

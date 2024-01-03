@@ -1,0 +1,56 @@
+.grid1 {
+    height: 100%;
+    padding: 0px;
+    width: 70%;
+}
+
+.contaier-login {
+    width: 90%;
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.header {
+   background-image: url("https://i.pinimg.com/236x/de/02/60/de0260cc55f61f64db986e7e412dca22.jpg");
+   width: 100%;
+   height: 100%;
+}
+
+.row2 {
+    height: 50%;
+}
+
+ion-icon {
+    margin-right: 15px;
+    color: #36BFBF !important;
+    
+}
+
+ion-button {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    --background: #36BFBF!important;
+}
+
+ion-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0px !important;
+}
+.titulo1{
+    --color: #000000 !important;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+      
+  }
+  .titulo2{
+    color: #36BFBF !important;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+      
+  }

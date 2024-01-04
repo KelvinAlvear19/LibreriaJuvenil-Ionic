@@ -28,7 +28,7 @@ Asegúrate de tener instalados los siguientes requisitos en tu sistema:
 <img alt="Static Badge" src="https://img.shields.io/badge/Node-%20version%2016.15.0-%20green">
 
 
-Por favor, consulte la guía oficial de instalación de Angular para los requisitos del servidor antes de empezar.
+Por favor, consulte la guía oficial de instalación de Ionic para los requisitos del servidor antes de empezar.
 
 Clonar el repositorio
 
